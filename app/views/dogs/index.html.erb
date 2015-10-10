@@ -1,0 +1,4 @@
+<h1> Say "Hello!" to our beautiful dogs! </h1>
+<% @dogs.each do |d| %>
+	<p><%= d.dog_name %> <%= d.dog_age %> <%= image_tag d.dog_picture%></p>
+<% end %>

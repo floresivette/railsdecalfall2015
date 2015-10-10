@@ -1,0 +1,7 @@
+<h1>Register your dog here!</h1>
+  <%= form_for @dog do |f| %> 
+    <p> Name: <%= f.text_field :dog_name %> </p>
+    <p> Age: <%= f.text_field :dog_age %> </p>
+    <p> Pic: <%= f.text_field :dog_picture %> </p>
+    <%= f.submit "Register" %>
+  <% end %>
